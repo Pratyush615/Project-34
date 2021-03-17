@@ -12,7 +12,7 @@ class Ball {
 
         var monster;
         monster = createSprite(1250,500,50,50);
-        this.bodi = Bodies.circle(this.x,this.y,options);
+        this.body = Bodies.circle(this.x,this.y,options);
 
         World.add(world,this.body);
     }
